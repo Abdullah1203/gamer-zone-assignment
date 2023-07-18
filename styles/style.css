@@ -1,7 +1,130 @@
-*{
-    margin: 0;
-    padding: 0;
+/* GLOBAL SECTION */
+
+:root {
+  --primary-color: #3c354f;
+  --secondary-color: white;
+  --title-font-size: 48px;
 }
-h1{
-    color: steelblue;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.gradient-color {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.flex {
+  display: flex;
+}
+.container {
+  margin: 0px 240px;
+}
+.title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  padding: 24px 0px;
+  line-height: 30px;
+}
+.btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #f948b2;
+  padding: 21px 40px;
+  border: 0;
+  border-radius: 48px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #b43a83;
+}
+/* NAVBAR SECTION */
+
+/* nav{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    background-color: rgba(255, 163, 183)
+} */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 240px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.logo {
+  gap: 20px;
+  align-items: center;
+}
+.logo .logo-img {
+  width: 86px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.logo h2 {
+  font-size: 45px;
+  font-weight: 900;
+}
+span {
+  color: #ff42a5;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul a {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-right: 24px;
+  text-decoration: none;
+}
+.follow-us {
+  padding: 18px 24px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
+.fa-youtube {
+  color: #ff0000;
+  width: 33px;
+}
+
+/* BANNER CSS STARTS */
+.banner {
+  height: 700px;
+}
+.banner-title {
+}
+.banner-details h2 {
+  color: #0b0223;
+  text-align: center;
+  font-size: var(--title-font-size);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* BANNER CSS ENDS */
+
+/* WE ARE GAMER SECTION CSS STARTS */
+.we-are-gamer {
+  height: 600px;
 }
