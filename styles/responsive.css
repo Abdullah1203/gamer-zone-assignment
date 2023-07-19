@@ -1,113 +1,128 @@
 @media screen and (max-width: 576px) {
-    /* for mobile */
-    .flex{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .container{
-        flex-direction: column;
-        margin: 10%;
-    }
-    .btn{
-       
-        font-size: .8em;
-    }
-    .navbar{
-        width: 100%;
-        flex-direction: column;
-        padding: 56px 0px;
-        justify-content: center;
-        align-items: center;
-    }
-    .navbar .logo{
-        margin: 40px 0px;
-    }
-    .navbar ul{
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
-    .banner{
-        margin: 40px 0px;
-        height: auto;
-        background-image: none;
-    }
-    
-    
-    .banner-container{
-        flex-direction: column-reverse;
-        gap: 100px;
-    }
-    .banner-img img{
-        width: 400px;
-    }
+  /* for mobile */
+  .flex {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .container {
+    flex-direction: column;
+    margin: 10%;
+  }
+  .btn {
+    font-size: 0.8em;
+  }
+  .navbar {
+    width: 100%;
+    flex-direction: column;
+    padding: 56px 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar .logo {
+    margin: 40px 0px;
+  }
+  .logo h2{
+    font-size: 2.2em;
+  }
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .banner {
+    margin: 40px 0px;
+    height: auto;
+    background-image: none;
+  }
 
-    .we-are-gamer-img img{
-        width: 400px;
-    }
-    .we-are-gamer-details{
-        text-align: center;
-    }
-    .we-are-gamer-container{
-        gap: 0px;
-    }
-    .quote{
-        font-size: 1.5em;
-    }
-    .funny-videos-container h2{
-        font-size: 2em;
-    }
-    .career-container{
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .career-details{
-        margin: 10%;
-        text-align: left;
-    }
-    .career-details p{
-        font-size: .9em;
-    }
-    .career-img img{
-        width: 400px;
-    }
-    .career-list{
-       font-size: .8em;
-    }
-    .play-games-online-images img{
-        width: 80%;
-    }
-    .play-games-online-details{
-        width: 100%;
-    }
-    .play-games-online-container{
-        flex-direction: column-reverse;
-        gap: 100px;
-    }
-    .bottom-fixing {
-        position: relative;
-        width: 50%;
-        left: 280px;
-        bottom: 160px;
-      }
-    .bottom-image{
-        width: 50%;
-        
-      }
-      .category-container{
-        margin: 0;
-      }
-    .category-boxes{
-        display: grid;
-        grid-gap: 10px;
-        grid-template-columns: repeat(3, 30%);
-        font-size: 0.7em;
-    }
-    .category-box img{
-        /* font-size: 10px; */
-        width: 30px;
-    }
+  .banner-container {
+    flex-direction: column-reverse;
+    gap: 100px;
+  }
+  .banner-img img {
+    width: 400px;
+  }
 
+  .we-are-gamer-img img {
+    width: 400px;
+  }
+  .we-are-gamer-details {
+    text-align: center;
+  }
+  .we-are-gamer-container {
+    gap: 0px;
+  }
+  .quote {
+    font-size: 1.5em;
+  }
+  .funny-videos-container h2 {
+    font-size: 1.7em;
+  }
+  .funny-videos-container p {
+
+    margin: auto;
+    font-size: .8em;
+    width: 70%;
+  }
+  .career-container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .career-details {
+    margin: 10%;
+    text-align: left;
+  }
+  .career-details p {
+    font-size: 0.9em;
+  }
+  .career-img img {
+    width: 400px;
+  }
+  .career-list {
+    font-size: 0.8em;
+  }
+  .play-games-online-images img {
+    width: 80%;
+  }
+  .play-games-online-details {
+    width: 100%;
+  }
+  .play-games-online-container {
+    flex-direction: column-reverse;
+    gap: 100px;
+  }
+  .play-games-online-images{
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+  }
+  .bottom-fixing {
+    position: relative;
+    width: 50%;
+    left: 50%;
+    bottom: 140px;
+  }
+  .bottom-image {
+    width: 50%;
+  }
+  .category-container {
+    margin: 0;
+  }
+  .category-boxes {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 30%);
+    font-size: 0.7em;
+  }
+
+  .category-box h4{
+    font-size: 0.6em;
+    padding: 18px 0px;
+  }
+  .category-box img {
+    /* font-size: 10px; */
+    width: 35px;
+  }
 }
