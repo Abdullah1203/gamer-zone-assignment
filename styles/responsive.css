@@ -1,29 +1,64 @@
 @media screen and (max-width: 576px) {
     /* for mobile */
-    .container {
-        margin: 0px 60px;
-        text-align: center;
-        align-items: center;
+    .flex{
         justify-content: center;
-        width: 100%;
-      }
+        align-items: center;
+        text-align: center;
+    }
+    .container{
+        flex-direction: column;
+    }
     .navbar{
         width: 100%;
-        gap: 30px;
-    }
-    .menu ul a {
-        margin: 36px 0px;
-    }
-    .banner{
-        width: 100%;
-    }
-    .flex{
-        width: 100%;
         flex-direction: column;
+        padding: 56px 0px;
         justify-content: center;
         align-items: center;
     }
-    .funny-videos-container{
-        width: 100%;
+    .navbar .logo{
+        margin: 40px 0px;
     }
+    .navbar ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .banner{
+        margin: 40px 0px;
+        height: auto;
+        background-image: none;
+    }
+    
+
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+    .banner-img img{
+        width: 400px;
+    }
+
+    .we-are-gamer-img img{
+        width: 400px;
+    }
+    .career-container{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .career-details{
+        margin: 30px;
+    }
+    .career-img img{
+        width: 400px;
+    }
+    .play-games-online-images{
+        width:500px;
+        overflow: auto;
+    }
+    .category-boxes{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
 }

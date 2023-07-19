@@ -152,7 +152,9 @@ span {
 /* BANNER CSS ENDS */
 
 /* WE ARE GAMER SECTION CSS STARTS */
-
+.we-are-gamer{
+  height: auto;
+}
 .we-are-gamer-container {
   align-items: center;
   justify-content: space-between;
@@ -368,3 +370,6 @@ footer{
 }
 
 /* FOOTER SECTION CSS ends */
+
+
+
