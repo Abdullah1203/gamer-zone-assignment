@@ -256,11 +256,65 @@ span {
   left: 528px;
 }
 
-
-
-
-
-
-
-
 /* PLAY GAMES ONLINE SECTION CSS ENDS */
+
+
+/* CAREER SECTION  css starts  */
+
+.career{
+  background-color: #ff42a5 ;
+  color: #fff ;
+  
+}
+.career p{
+  color: #fff;
+}
+.btn-white{
+  color: #ff42a5;
+  background-color: #fff;
+}
+.career-container{
+  justify-content: flex-end;
+}
+.career-details{
+  margin: auto 0;
+  margin-left: 240px;
+}
+.career-list{
+  display: flex;
+  justify-content: space-between;
+}
+/* CAREER SECTION  css ends  */
+
+
+}/* CATEGORY SECTION CSS STARTS */
+.category{
+}
+
+.category-boxes{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-evenly;
+  align-items: center;
+  grid-gap: 28px;
+  padding: 120px 0px;
+}
+
+.category-box h4{
+  padding: 28px 10px;
+}
+.category-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.category-box:hover{
+  color: #ff42a5;
+  border: 1px solid #ff42a5;
+  border-radius: 46px;
+  cursor: pointer;
+  transition: 100ms;
+}
+/* CATEGORY SECTION CSS ENDS */
