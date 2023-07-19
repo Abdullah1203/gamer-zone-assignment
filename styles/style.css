@@ -54,7 +54,7 @@ body {
 .btn:hover {
   background-color: #b43a83;
 }
-.btn-white:hover{
+.btn-white:hover {
   background-color: #ececec;
   color: #111;
 }
@@ -156,7 +156,7 @@ span {
 /* BANNER CSS ENDS */
 
 /* WE ARE GAMER SECTION CSS STARTS */
-.we-are-gamer{
+.we-are-gamer {
   height: auto;
 }
 .we-are-gamer-container {
@@ -167,12 +167,10 @@ span {
 .we-are-gamer-details {
   margin: 96px 0px;
   text-align: right;
-
 }
 .we-are-gamer-details p {
   padding-bottom: 0px;
 }
-
 
 /* FUNNY VIDEOS CSS STARTS */
 
@@ -196,7 +194,7 @@ span {
   margin-bottom: 24px;
   display: block;
 }
-.video-box h3{
+.video-box h3 {
   width: 342px;
 }
 
@@ -221,19 +219,19 @@ span {
   color: #ff42a5;
   top: 0;
   opacity: 0%;
-  cursor:pointer;
+  cursor: pointer;
 }
-.overlay:hover{
-    opacity: 100%;
+.overlay:hover {
+  opacity: 100%;
 }
-.play-button{
-    font-size: 48px;
-    color: white;
+.play-button {
+  font-size: 48px;
+  color: white;
 }
-.video-box h3{
-    font-size: 20px;
-    font-weight: 500;
-    color: #534C64;
+.video-box h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #534c64;
 }
 .video-box img:hover {
   cursor: pointer;
@@ -247,19 +245,19 @@ span {
 
 /* PLAY GAMES ONLINE SECTION CSS STARTS */
 
-.play-games-online{
+.play-games-online {
   height: auto;
 }
 
-.play-games-online-container{
+.play-games-online-container {
   justify-content: space-between;
   align-items: center;
 }
-.play-games-online-details{
+.play-games-online-details {
   width: 483px;
 }
 
-.bottom-fixing{
+.bottom-fixing {
   position: relative;
   bottom: 240px;
   left: 528px;
@@ -268,30 +266,28 @@ span {
 
 /* PLAY GAMES ONLINE SECTION CSS ENDS */
 
-
 /* CAREER SECTION  css starts  */
 
-.career{
-  background-color: #ff42a5 ;
-  color: #fff ;
-  
-}
-.career p{
+.career {
+  background-color: #ff42a5;
   color: #fff;
 }
-.btn-white{
+.career p {
+  color: #fff;
+}
+.btn-white {
   color: #ff42a5;
   background-color: #fff;
 }
-.career-container{
+.career-container {
   justify-content: flex-end;
 }
-.career-details{
+.career-details {
   margin: auto 0;
   margin-left: 240px;
   /* width: 680px; */
 }
-.career-list{
+.career-list {
   /* margin: 6px 0px; */
   display: flex;
   justify-content: space-between;
@@ -300,10 +296,9 @@ span {
 
 /* CAREER SECTION  css ends  */
 
-
 /* CATEGORY SECTION CSS STARTS */
 
-.category-boxes{
+.category-boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -312,20 +307,20 @@ span {
   padding: 120px 0px;
 }
 
-.category-box h4{
+.category-box h4 {
   padding: 28px 10px;
 }
-.category-box img{
+.category-box img {
   padding-left: 10px;
 }
-.category-box{
+.category-box {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
 }
 
-.category-box:hover{
+.category-box:hover {
   color: #ff42a5;
   border: 1px solid #ff42a5;
   border-radius: 46px;
@@ -335,42 +330,39 @@ span {
 /* CATEGORY SECTION CSS ENDS */
 
 /* FOOTER SECTION CSS START */
-footer{
-  background-color: #0B0223;
+footer {
+  background-color: #0b0223;
   color: white;
 }
-.footer-container{
+.footer-container {
   flex-direction: column;
   gap: 60px;
   justify-content: center;
   align-items: center;
   padding: 120px 0px;
 }
-.footer-links{
+.footer-links {
   gap: 60px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.footer-social-links i{
-  padding: 0 20px;  
+.footer-social-links i {
+  padding: 0 20px;
 }
-.footer-social-links .fa-brands{
+.footer-social-links .fa-brands {
   font-size: 40px;
 }
-.color-grey{
+.color-grey {
   text-align: center;
-  color:rgba(255, 255, 255, 0.60); ;
+  color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
 }
-.privacy-policy-link{
+.privacy-policy-link {
   gap: 60px;
 }
-.copyright-notice{
- margin-top: 28px;
+.copyright-notice {
+  margin-top: 28px;
 }
 
 /* FOOTER SECTION CSS ends */
-
-
-
