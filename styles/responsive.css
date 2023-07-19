@@ -56,14 +56,20 @@
   .quote {
     font-size: 1.5em;
   }
+  .funny-videos-container{
+    padding: 10px 0px;
+  }
   .funny-videos-container h2 {
-    font-size: 1.7em;
+    font-size: 2em;
   }
   .funny-videos-container p {
-
     margin: auto;
     font-size: .8em;
     width: 70%;
+  }
+  .video-box h3{
+    font-size: 0.8em;
+    margin-bottom: 20px;
   }
   .career-container {
     align-items: center;
@@ -115,6 +121,12 @@
     grid-gap: 10px;
     grid-template-columns: repeat(3, 30%);
     font-size: 0.7em;
+    width: 90%;
+    margin: auto;
+    padding: 60px 0px;
+  }
+  .category-box{
+word-break: keep-all;
   }
 
   .category-box h4{
@@ -124,5 +136,32 @@
   .category-box img {
     /* font-size: 10px; */
     width: 35px;
+  }
+  .footer-container{
+    margin: 0 60px;
+    padding: 30px 0px;
+    gap: 35px;
+  }
+  .footer-links , .footer-logo , .footer-social-links, .privacy-policy-link , .copyright-notice{
+    font-size: 0.6em;
+  }
+  .footer-links, .footer-social-links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 40px;
+  }
+  .footer-social-links{
+    gap: 20px 10px;
+  }
+  .footer-logo{
+
+  }
+  .privacy-policy-link{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 40px;
+  }
+  .footer-social-links .fa-brands{
+    font-size: 25px;
   }
 }
