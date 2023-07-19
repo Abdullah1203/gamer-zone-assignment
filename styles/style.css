@@ -184,6 +184,7 @@ span {
 .funny-videos-box {
   margin: 48px 0px;
   gap: 24px;
+  flex-wrap: wrap;
 }
 .video-box img {
   width: 342px;
@@ -254,6 +255,7 @@ span {
   position: relative;
   bottom: 240px;
   left: 528px;
+  width: fit-content;
 }
 
 /* PLAY GAMES ONLINE SECTION CSS ENDS */
@@ -279,11 +281,15 @@ span {
 .career-details{
   margin: auto 0;
   margin-left: 240px;
+  /* width: 680px; */
 }
 .career-list{
+  /* margin: 6px 0px; */
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
+
 /* CAREER SECTION  css ends  */
 
 
@@ -292,8 +298,8 @@ span {
 }
 
 .category-boxes{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   grid-gap: 28px;
@@ -302,6 +308,9 @@ span {
 
 .category-box h4{
   padding: 28px 10px;
+}
+.category-box img{
+  padding-left: 10px;
 }
 .category-box{
   display: flex;
@@ -315,6 +324,6 @@ span {
   border: 1px solid #ff42a5;
   border-radius: 46px;
   cursor: pointer;
-  transition: 100ms;
+  /* transition: 100ms; */
 }
 /* CATEGORY SECTION CSS ENDS */
