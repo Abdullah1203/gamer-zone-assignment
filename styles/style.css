@@ -152,9 +152,7 @@ span {
 /* BANNER CSS ENDS */
 
 /* WE ARE GAMER SECTION CSS STARTS */
-.we-are-gamer {
-  height: 600px;
-}
+
 .we-are-gamer-container {
   align-items: center;
   justify-content: space-between;
@@ -177,6 +175,7 @@ span {
 
 .funny-videos {
   text-align: center;
+  margin-bottom: 120px;
 }
 .funny-videos-container {
   padding: 120px 0px;
@@ -184,12 +183,18 @@ span {
 .funny-videos-box {
   margin: 48px 0px;
   gap: 24px;
+  justify-content: center;
+
   flex-wrap: wrap;
 }
 .video-box img {
   width: 342px;
+  height: 400px;
   margin-bottom: 24px;
   display: block;
+}
+.video-box h3{
+  width: 342px;
 }
 
 /* hover effect */
@@ -293,9 +298,7 @@ span {
 /* CAREER SECTION  css ends  */
 
 
-}/* CATEGORY SECTION CSS STARTS */
-.category{
-}
+/* CATEGORY SECTION CSS STARTS */
 
 .category-boxes{
   display: flex;
@@ -327,3 +330,41 @@ span {
   /* transition: 100ms; */
 }
 /* CATEGORY SECTION CSS ENDS */
+
+/* FOOTER SECTION CSS START */
+footer{
+  background-color: #0B0223;
+  color: white;
+}
+.footer-container{
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0px;
+}
+.footer-links{
+  gap: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.footer-social-links i{
+  padding: 0 20px;  
+}
+.footer-social-links .fa-brands{
+  font-size: 40px;
+}
+.color-grey{
+  text-align: center;
+  color:rgba(255, 255, 255, 0.60); ;
+  font-size: 16px;
+}
+.privacy-policy-link{
+  gap: 60px;
+}
+.copyright-notice{
+ margin-top: 28px;
+}
+
+/* FOOTER SECTION CSS ends */

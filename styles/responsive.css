@@ -1,0 +1,29 @@
+@media screen and (max-width: 576px) {
+    /* for mobile */
+    .container {
+        margin: 0px 60px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+    .navbar{
+        width: 100%;
+        gap: 30px;
+    }
+    .menu ul a {
+        margin: 36px 0px;
+    }
+    .banner{
+        width: 100%;
+    }
+    .flex{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .funny-videos-container{
+        width: 100%;
+    }
+}
