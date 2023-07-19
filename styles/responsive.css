@@ -1,7 +1,7 @@
 @media screen and (max-width: 576px) {
   /* for mobile */
   .flex {
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     text-align: center;
   }
@@ -19,16 +19,20 @@
     justify-content: center;
     align-items: center;
   }
+
   .navbar .logo {
     margin: 40px 0px;
   }
-  .logo h2{
+  .logo h2 {
     font-size: 2.2em;
   }
   .navbar ul {
     flex-direction: column;
     align-items: center;
     gap: 30px;
+  }
+  .menu ul a {
+    margin-right: 0px;
   }
   .banner {
     margin: 40px 0px;
@@ -40,8 +44,24 @@
     flex-direction: column-reverse;
     gap: 100px;
   }
+  .banner-lists,
+  .banner-button {
+    font-size: 0.7em;
+  }
+  .banner-details {
+    text-align: left;
+    width: 80%;
+    justify-content: left;
+    align-items: left;
+  }
+  .banner-details h2 {
+    font-size: 30px;
+  }
+  .banner-title {
+    font-size: 50px;
+  }
   .banner-img img {
-    width: 400px;
+    width: 100%;
   }
 
   .we-are-gamer-img img {
@@ -56,18 +76,22 @@
   .quote {
     font-size: 1.5em;
   }
-  .funny-videos-container{
+  .funny-videos-container {
     padding: 10px 0px;
   }
   .funny-videos-container h2 {
-    font-size: 2em;
+    font-size: 1.6em;
   }
   .funny-videos-container p {
     margin: auto;
-    font-size: .8em;
+    font-size: 0.8em;
     width: 70%;
   }
-  .video-box h3{
+  .funny-videos-box {
+    display: flex;
+    justify-content: center;
+  }
+  .video-box h3 {
     font-size: 0.8em;
     margin-bottom: 20px;
   }
@@ -80,14 +104,16 @@
     margin: 10%;
     text-align: left;
   }
-  .career-details p {
-    font-size: 0.9em;
-  }
+
   .career-img img {
     width: 400px;
   }
   .career-list {
-    font-size: 0.8em;
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+    line-height: 20px;
+   
   }
   .play-games-online-images img {
     width: 80%;
@@ -99,7 +125,7 @@
     flex-direction: column-reverse;
     gap: 100px;
   }
-  .play-games-online-images{
+  .play-games-online-images {
     align-items: left;
     text-align: left;
     justify-content: left;
@@ -125,11 +151,14 @@
     margin: auto;
     padding: 60px 0px;
   }
-  .category-box{
-word-break: keep-all;
+  .category-box {
+    word-break: keep-all;
+  }
+  .title {
+    font-size: 30px;
   }
 
-  .category-box h4{
+  .category-box h4 {
     font-size: 0.6em;
     padding: 18px 0px;
   }
@@ -137,31 +166,38 @@ word-break: keep-all;
     /* font-size: 10px; */
     width: 35px;
   }
-  .footer-container{
+  .description{
+    font-size: 10px;
+    line-height: normal;
+}
+  .footer-container {
     margin: 0 60px;
-    padding: 30px 0px;
+    padding: 60px 0px;
     gap: 35px;
   }
-  .footer-links , .footer-logo , .footer-social-links, .privacy-policy-link , .copyright-notice{
+  .footer-links,
+  .footer-logo,
+  .footer-social-links,
+  .privacy-policy-link,
+  .copyright-notice {
     font-size: 0.6em;
   }
-  .footer-links, .footer-social-links{
+  .footer-links,
+  .footer-social-links {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px 40px;
   }
-  .footer-social-links{
+  .footer-social-links {
     gap: 20px 10px;
   }
-  .footer-logo{
-
-  }
-  .privacy-policy-link{
+  
+  .privacy-policy-link {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px 40px;
   }
-  .footer-social-links .fa-brands{
+  .footer-social-links .fa-brands {
     font-size: 25px;
   }
 }
